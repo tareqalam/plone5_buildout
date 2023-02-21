@@ -26,10 +26,5 @@ install
 4. `$ virtualenv -p python3.8 .`
 5. `$ ./bin/pip install -r requirements.txt`
 6. `$ ./bin/buildout -v`
-
-
-mysql setup
------------
-1. locally you can run ./docker-mysql-5.7.sh
-2. login to that mysql: `$ mysql -h 127.0.0.1 -P 33064 -u root -p1 -A;`
-3. create the database that you want for local: `$ create database plone5_test`
+7. `$ ./bin/instance fg`
+8. open in browser localhost:8080
