@@ -14,6 +14,10 @@ Dependency
 2. sudo apt-get -y install gcc make build-essential libssl-dev libffi-dev python-dev
 3. make sure you have python >= 3.6
 
+in mac
+instead of sudo apt-get use 
+1. brew install python3.8-dev python-dev build-essential
+2. brew install gcc make build-essential libssl-dev libffi-dev python-dev
 Use this buildout
 =================
 
